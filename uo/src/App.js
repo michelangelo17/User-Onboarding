@@ -9,7 +9,7 @@ function App() {
   return (
     <Container>
       <Container className='d-flex justify-content-center'>
-        <h1 className='display-2'>Sign In!</h1>
+        <h1 className='display-2'>Sign Up!</h1>
       </Container>
       <FormikOnboardingForm users={users} setUsers={setUsers} />
       <DisplayUsers users={users} />
