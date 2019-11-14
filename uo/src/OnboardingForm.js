@@ -46,10 +46,7 @@ const OnboardingForm = ({
         className={touched.password && errors.password && 'text-danger'}
       >
         Password
-        {touched.password &&
-          errors.password &&
-          errors.password  
-        }
+        {touched.password && errors.password && errors.password}
       </Form.Label>
       <Form.Control
         name='password'

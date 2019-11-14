@@ -5,7 +5,6 @@ import DisplayUsers from './DisplayUsers'
 
 function App() {
   const [users, setUsers] = useState([])
-  console.log(users)
   return (
     <Container>
       <Container className='d-flex justify-content-center'>
